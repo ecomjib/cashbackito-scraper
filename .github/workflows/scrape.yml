@@ -1,0 +1,35 @@
+name: Scrape Cashback Rates
+
+on:
+  schedule:
+    # Toutes les 2 heures
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Permet de lancer manuellement
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml
+      
+      - name: Run scraper
+        run: python scraper.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/cashback_rates.json
+          git diff --staged --quiet || git commit -m "Update cashback rates - $(date +'%Y-%m-%d %H:%M')"
+          git push
