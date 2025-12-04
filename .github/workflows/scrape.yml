@@ -1,0 +1,47 @@
+name: 🔄 Cashbackito - Mise à jour des taux
+
+on:
+  # Exécution automatique toutes les heures
+  schedule:
+    - cron: '0 * * * *'
+  
+  # Permet de lancer manuellement
+  workflow_dispatch:
+  
+  # Sur chaque push (pour tester)
+  push:
+    branches: [main]
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout du repo
+        uses: actions/checkout@v4
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 📦 Installer les dépendances
+        run: |
+          pip install requests beautifulsoup4 lxml
+      
+      - name: 🔍 Lancer le scraping
+        run: |
+          python scraper.py
+      
+      - name: 📊 Afficher les résultats
+        run: |
+          echo "=== RÉSULTATS DU SCRAPING ==="
+          cat data/cashback_rates.json | python -c "import sys,json; d=json.load(sys.stdin); print(f\"Mise à jour: {d['last_updated_fr']}\"); print(f\"Marchands: {d['stats']['merchants_count']}\"); print(f\"Taux trouvés: {d['stats']['rates_count']}\")"
+      
+      - name: 💾 Commit et push des données
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Cashbackito Bot 🤖"
+          git add data/cashback_rates.json
+          git diff --staged --quiet || git commit -m "🔄 Mise à jour des taux - $(date '+%Y-%m-%d %H:%M')"
+          git push
