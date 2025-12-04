@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-04T08:57:29.212236",
-  "last_updated_fr": "04/12/2025 a 08h57",
+  "last_updated": "2025-12-04T10:52:31.760707",
+  "last_updated_fr": "04/12/2025 a 10h52",
   "stats": {
     "merchants_count": 23,
-    "rates_count": 23,
+    "rates_count": 29,
     "errors_count": 0
   },
   "merchants": [
@@ -17,10 +17,15 @@
           "platform": "Poulpeo",
           "rate": 4.5,
           "url": "https://www.poulpeo.com/reductions-aliexpress.htm"
+        },
+        {
+          "platform": "Widilo",
+          "rate": 8.44,
+          "url": "https://www.widilo.fr/code-promo/aliexpress"
         }
       ],
-      "best_rate": 4.5,
-      "best_platform": "Poulpeo"
+      "best_rate": 8.44,
+      "best_platform": "Widilo"
     },
     {
       "name": "Cdiscount",
@@ -62,10 +67,15 @@
           "platform": "Poulpeo",
           "rate": 4.5,
           "url": "https://www.poulpeo.com/reductions-fnac.htm"
+        },
+        {
+          "platform": "Widilo",
+          "rate": 5.2,
+          "url": "https://www.widilo.fr/code-promo/fnac"
         }
       ],
-      "best_rate": 4.5,
-      "best_platform": "Poulpeo"
+      "best_rate": 5.2,
+      "best_platform": "Widilo"
     },
     {
       "name": "Darty",
@@ -77,6 +87,11 @@
           "platform": "Poulpeo",
           "rate": 5.0,
           "url": "https://www.poulpeo.com/reductions-darty.htm"
+        },
+        {
+          "platform": "Widilo",
+          "rate": 5.0,
+          "url": "https://www.widilo.fr/code-promo/darty"
         }
       ],
       "best_rate": 5.0,
@@ -122,10 +137,15 @@
           "platform": "Poulpeo",
           "rate": 3.0,
           "url": "https://www.poulpeo.com/reductions-asos.htm"
+        },
+        {
+          "platform": "Widilo",
+          "rate": 3.6,
+          "url": "https://www.widilo.fr/code-promo/asos"
         }
       ],
-      "best_rate": 3.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 3.6,
+      "best_platform": "Widilo"
     },
     {
       "name": "SHEIN",
@@ -212,10 +232,15 @@
           "platform": "Poulpeo",
           "rate": 5.0,
           "url": "https://www.poulpeo.com/reductions-adidas.htm"
+        },
+        {
+          "platform": "Widilo",
+          "rate": 5.4,
+          "url": "https://www.widilo.fr/code-promo/adidas"
         }
       ],
-      "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 5.4,
+      "best_platform": "Widilo"
     },
     {
       "name": "Decathlon",
@@ -302,6 +327,11 @@
           "platform": "Poulpeo",
           "rate": 8.0,
           "url": "https://www.poulpeo.com/reductions-expedia.htm"
+        },
+        {
+          "platform": "Widilo",
+          "rate": 4.8,
+          "url": "https://www.widilo.fr/code-promo/expedia"
         }
       ],
       "best_rate": 8.0,
