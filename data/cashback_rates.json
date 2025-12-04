@@ -1,0 +1,270 @@
+{
+  "last_updated": "2025-12-04T10:00:00.000000",
+  "last_updated_fr": "04/12/2025 à 10h00",
+  "stats": {
+    "merchants_count": 20,
+    "rates_count": 65,
+    "errors_count": 0
+  },
+  "merchants": [
+    {
+      "name": "AliExpress",
+      "slug": "aliexpress",
+      "category": "Marketplace",
+      "logo": "🛒",
+      "rates": [
+        {"platform": "Widilo", "rate": 6.0, "url": "https://www.widilo.fr/code-promo/aliexpress"},
+        {"platform": "Poulpeo", "rate": 5.5, "url": "https://www.poulpeo.com/cashback/aliexpress"},
+        {"platform": "eBuyClub", "rate": 4.5, "url": "https://www.ebuyclub.com/reduction-aliexpress"},
+        {"platform": "iGraal", "rate": 4.0, "url": "https://fr.igraal.com/codes-promo/aliexpress"}
+      ],
+      "best_rate": 6.0,
+      "best_platform": "Widilo"
+    },
+    {
+      "name": "SHEIN",
+      "slug": "shein",
+      "category": "Mode",
+      "logo": "👗",
+      "rates": [
+        {"platform": "Widilo", "rate": 10.0, "url": "https://www.widilo.fr/code-promo/shein"},
+        {"platform": "Poulpeo", "rate": 8.0, "url": "https://www.poulpeo.com/cashback/shein"},
+        {"platform": "iGraal", "rate": 7.0, "url": "https://fr.igraal.com/codes-promo/shein"},
+        {"platform": "eBuyClub", "rate": 6.0, "url": "https://www.ebuyclub.com/reduction-shein"}
+      ],
+      "best_rate": 10.0,
+      "best_platform": "Widilo"
+    },
+    {
+      "name": "Fnac",
+      "slug": "fnac",
+      "category": "High-Tech",
+      "logo": "🎮",
+      "rates": [
+        {"platform": "Poulpeo", "rate": 4.0, "url": "https://www.poulpeo.com/cashback/fnac"},
+        {"platform": "iGraal", "rate": 3.5, "url": "https://fr.igraal.com/codes-promo/fnac"},
+        {"platform": "Widilo", "rate": 3.0, "url": "https://www.widilo.fr/code-promo/fnac"}
+      ],
+      "best_rate": 4.0,
+      "best_platform": "Poulpeo"
+    },
+    {
+      "name": "Nike",
+      "slug": "nike",
+      "category": "Sport",
+      "logo": "✔️",
+      "rates": [
+        {"platform": "Widilo", "rate": 7.0, "url": "https://www.widilo.fr/code-promo/nike"},
+        {"platform": "iGraal", "rate": 6.0, "url": "https://fr.igraal.com/codes-promo/nike"},
+        {"platform": "Poulpeo", "rate": 5.5, "url": "https://www.poulpeo.com/cashback/nike"}
+      ],
+      "best_rate": 7.0,
+      "best_platform": "Widilo"
+    },
+    {
+      "name": "Booking",
+      "slug": "booking",
+      "category": "Voyage",
+      "logo": "🏨",
+      "rates": [
+        {"platform": "iGraal", "rate": 4.0, "url": "https://fr.igraal.com/codes-promo/booking"},
+        {"platform": "Widilo", "rate": 4.0, "url": "https://www.widilo.fr/code-promo/booking"},
+        {"platform": "Poulpeo", "rate": 3.5, "url": "https://www.poulpeo.com/cashback/booking"}
+      ],
+      "best_rate": 4.0,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "Sephora",
+      "slug": "sephora",
+      "category": "Beauté",
+      "logo": "💄",
+      "rates": [
+        {"platform": "iGraal", "rate": 5.0, "url": "https://fr.igraal.com/codes-promo/sephora"},
+        {"platform": "Poulpeo", "rate": 4.5, "url": "https://www.poulpeo.com/cashback/sephora"},
+        {"platform": "Widilo", "rate": 4.0, "url": "https://www.widilo.fr/code-promo/sephora"}
+      ],
+      "best_rate": 5.0,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "Zalando",
+      "slug": "zalando",
+      "category": "Mode",
+      "logo": "👟",
+      "rates": [
+        {"platform": "Widilo", "rate": 6.0, "url": "https://www.widilo.fr/code-promo/zalando"},
+        {"platform": "Poulpeo", "rate": 5.5, "url": "https://www.poulpeo.com/cashback/zalando"},
+        {"platform": "iGraal", "rate": 5.0, "url": "https://fr.igraal.com/codes-promo/zalando"}
+      ],
+      "best_rate": 6.0,
+      "best_platform": "Widilo"
+    },
+    {
+      "name": "Darty",
+      "slug": "darty",
+      "category": "High-Tech",
+      "logo": "📺",
+      "rates": [
+        {"platform": "iGraal", "rate": 3.0, "url": "https://fr.igraal.com/codes-promo/darty"},
+        {"platform": "Widilo", "rate": 2.5, "url": "https://www.widilo.fr/code-promo/darty"},
+        {"platform": "Poulpeo", "rate": 2.5, "url": "https://www.poulpeo.com/cashback/darty"}
+      ],
+      "best_rate": 3.0,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "Adidas",
+      "slug": "adidas",
+      "category": "Sport",
+      "logo": "⚽",
+      "rates": [
+        {"platform": "Widilo", "rate": 6.5, "url": "https://www.widilo.fr/code-promo/adidas"},
+        {"platform": "iGraal", "rate": 5.5, "url": "https://fr.igraal.com/codes-promo/adidas"},
+        {"platform": "Poulpeo", "rate": 5.0, "url": "https://www.poulpeo.com/cashback/adidas"}
+      ],
+      "best_rate": 6.5,
+      "best_platform": "Widilo"
+    },
+    {
+      "name": "Yves Rocher",
+      "slug": "yves-rocher",
+      "category": "Beauté",
+      "logo": "🌿",
+      "rates": [
+        {"platform": "Widilo", "rate": 10.0, "url": "https://www.widilo.fr/code-promo/yves-rocher"},
+        {"platform": "iGraal", "rate": 8.0, "url": "https://fr.igraal.com/codes-promo/yves-rocher"},
+        {"platform": "Poulpeo", "rate": 7.5, "url": "https://www.poulpeo.com/cashback/yves-rocher"}
+      ],
+      "best_rate": 10.0,
+      "best_platform": "Widilo"
+    },
+    {
+      "name": "Cdiscount",
+      "slug": "cdiscount",
+      "category": "Marketplace",
+      "logo": "🏷️",
+      "rates": [
+        {"platform": "Poulpeo", "rate": 3.0, "url": "https://www.poulpeo.com/cashback/cdiscount"},
+        {"platform": "iGraal", "rate": 2.5, "url": "https://fr.igraal.com/codes-promo/cdiscount"}
+      ],
+      "best_rate": 3.0,
+      "best_platform": "Poulpeo"
+    },
+    {
+      "name": "Expedia",
+      "slug": "expedia",
+      "category": "Voyage",
+      "logo": "✈️",
+      "rates": [
+        {"platform": "iGraal", "rate": 5.0, "url": "https://fr.igraal.com/codes-promo/expedia"},
+        {"platform": "Poulpeo", "rate": 4.5, "url": "https://www.poulpeo.com/cashback/expedia"},
+        {"platform": "Widilo", "rate": 4.0, "url": "https://www.widilo.fr/code-promo/expedia"}
+      ],
+      "best_rate": 5.0,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "La Redoute",
+      "slug": "la-redoute",
+      "category": "Mode",
+      "logo": "🏠",
+      "rates": [
+        {"platform": "iGraal", "rate": 5.0, "url": "https://fr.igraal.com/codes-promo/la-redoute"},
+        {"platform": "Widilo", "rate": 4.5, "url": "https://www.widilo.fr/code-promo/la-redoute"},
+        {"platform": "Poulpeo", "rate": 4.0, "url": "https://www.poulpeo.com/cashback/la-redoute"}
+      ],
+      "best_rate": 5.0,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "Decathlon",
+      "slug": "decathlon",
+      "category": "Sport",
+      "logo": "🚴",
+      "rates": [
+        {"platform": "iGraal", "rate": 3.5, "url": "https://fr.igraal.com/codes-promo/decathlon"},
+        {"platform": "Poulpeo", "rate": 3.0, "url": "https://www.poulpeo.com/cashback/decathlon"},
+        {"platform": "Widilo", "rate": 2.5, "url": "https://www.widilo.fr/code-promo/decathlon"}
+      ],
+      "best_rate": 3.5,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "Samsung",
+      "slug": "samsung",
+      "category": "High-Tech",
+      "logo": "📱",
+      "rates": [
+        {"platform": "Widilo", "rate": 4.0, "url": "https://www.widilo.fr/code-promo/samsung"},
+        {"platform": "iGraal", "rate": 3.5, "url": "https://fr.igraal.com/codes-promo/samsung"},
+        {"platform": "Poulpeo", "rate": 3.0, "url": "https://www.poulpeo.com/cashback/samsung"}
+      ],
+      "best_rate": 4.0,
+      "best_platform": "Widilo"
+    },
+    {
+      "name": "Uber Eats",
+      "slug": "uber-eats",
+      "category": "Food",
+      "logo": "🍔",
+      "rates": [
+        {"platform": "iGraal", "rate": 1.5, "url": "https://fr.igraal.com/codes-promo/uber-eats"},
+        {"platform": "Widilo", "rate": 1.5, "url": "https://www.widilo.fr/code-promo/uber-eats"}
+      ],
+      "best_rate": 1.5,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "Leroy Merlin",
+      "slug": "leroy-merlin",
+      "category": "Maison",
+      "logo": "🔨",
+      "rates": [
+        {"platform": "iGraal", "rate": 3.0, "url": "https://fr.igraal.com/codes-promo/leroy-merlin"},
+        {"platform": "Poulpeo", "rate": 2.5, "url": "https://www.poulpeo.com/cashback/leroy-merlin"}
+      ],
+      "best_rate": 3.0,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "ASOS",
+      "slug": "asos",
+      "category": "Mode",
+      "logo": "👕",
+      "rates": [
+        {"platform": "Widilo", "rate": 5.0, "url": "https://www.widilo.fr/code-promo/asos"},
+        {"platform": "iGraal", "rate": 4.5, "url": "https://fr.igraal.com/codes-promo/asos"},
+        {"platform": "Poulpeo", "rate": 4.0, "url": "https://www.poulpeo.com/cashback/asos"}
+      ],
+      "best_rate": 5.0,
+      "best_platform": "Widilo"
+    },
+    {
+      "name": "Nocibé",
+      "slug": "nocibe",
+      "category": "Beauté",
+      "logo": "💅",
+      "rates": [
+        {"platform": "iGraal", "rate": 6.0, "url": "https://fr.igraal.com/codes-promo/nocibe"},
+        {"platform": "Poulpeo", "rate": 5.5, "url": "https://www.poulpeo.com/cashback/nocibe"},
+        {"platform": "Widilo", "rate": 5.0, "url": "https://www.widilo.fr/code-promo/nocibe"}
+      ],
+      "best_rate": 6.0,
+      "best_platform": "iGraal"
+    },
+    {
+      "name": "Boulanger",
+      "slug": "boulanger",
+      "category": "High-Tech",
+      "logo": "🔌",
+      "rates": [
+        {"platform": "iGraal", "rate": 2.5, "url": "https://fr.igraal.com/codes-promo/boulanger"},
+        {"platform": "Widilo", "rate": 2.0, "url": "https://www.widilo.fr/code-promo/boulanger"},
+        {"platform": "Poulpeo", "rate": 2.0, "url": "https://www.poulpeo.com/cashback/boulanger"}
+      ],
+      "best_rate": 2.5,
+      "best_platform": "iGraal"
+    }
+  ]
+}
