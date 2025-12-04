@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashbackito - Comparateur de Cashback en Temps Réel</title>
+    <meta name="description" content="Comparez les taux de cashback entre iGraal, Widilo, Poulpeo et eBuyClub. Trouvez le meilleur taux pour vos achats en ligne.">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+        }
+        .card-glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .platform-igraal { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+        .platform-widilo { background: linear-gradient(135deg, #10b981, #059669); }
+        .platform-poulpeo { background: linear-gradient(135deg, #f97316, #ea580c); }
+        .platform-ebuyclub { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
+        @keyframes pulse-slow { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+        .animate-pulse-slow { animation: pulse-slow 2s ease-in-out infinite; }
+        .best-badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            transform: rotate(12deg);
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-white">
+    <!-- Background Effects -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute top-20 left-10 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="relative z-10 container mx-auto px-4 py-8 max-w-6xl">
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-bold mb-3">
+                <span class="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Cashback</span>ito
+            </h1>
+            <p class="text-slate-400 text-lg">Comparez les taux de cashback en temps réel</p>
+            <div id="lastUpdate" class="mt-3 text-sm text-slate-500"></div>
+        </header>
+
+        <!-- Stats Bar -->
+        <div id="statsBar" class="card-glass rounded-2xl p-4 mb-8 hidden">
+            <div class="flex flex-wrap justify-center gap-6 text-center">
+                <div>
+                    <div id="statMerchants" class="text-2xl font-bold text-emerald-400">-</div>
+                    <div class="text-xs text-slate-400">Marchands</div>
+                </div>
+                <div>
+                    <div id="statRates" class="text-2xl font-bold text-cyan-400">-</div>
+                    <div class="text-xs text-slate-400">Taux comparés</div>
+                </div>
+                <div>
+                    <div id="statBestWidilo" class="text-2xl font-bold text-emerald-400">-</div>
+                    <div class="text-xs text-slate-400">Widilo gagnant</div>
+                </div>
+                <div>
+                    <div id="statBestIgraal" class="text-2xl font-bold text-blue-400">-</div>
+                    <div class="text-xs text-slate-400">iGraal gagnant</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search & Filters -->
+        <div class="card-glass rounded-2xl p-4 mb-8">
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-1">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="🔍 Rechercher un marchand..."
+                        class="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition"
+                    >
+                </div>
+                <select 
+                    id="categoryFilter"
+                    class="bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500 transition"
+                >
+                    <option value="">Toutes catégories</option>
+                </select>
+                <select 
+                    id="sortBy"
+                    class="bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500 transition"
+                >
+                    <option value="best">Meilleur taux</option>
+                    <option value="name">Nom A-Z</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="text-center py-20">
+            <div class="animate-spin w-12 h-12 border-4 border-emerald-500 border-t-transparent rounded-full mx-auto mb-4"></div>
+            <p class="text-slate-400">Chargement des taux...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="error" class="hidden text-center py-20">
+            <div class="text-6xl mb-4">😕</div>
+            <p class="text-slate-400 mb-4">Impossible de charger les données</p>
+            <button onclick="loadData()" class="bg-emerald-600 hover:bg-emerald-700 px-6 py-2 rounded-lg transition">
+                Réessayer
+            </button>
+        </div>
+
+        <!-- Merchants Grid -->
+        <div id="merchantsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 hidden"></div>
+
+        <!-- No Results -->
+        <div id="noResults" class="hidden text-center py-20">
+            <div class="text-6xl mb-4">🔍</div>
+            <p class="text-slate-400">Aucun marchand trouvé</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 text-slate-500 text-sm">
+            <p>Les taux sont mis à jour automatiquement toutes les heures</p>
+            <p class="mt-2">💡 Cliquez sur une plateforme pour activer votre cashback</p>
+        </footer>
+    </div>
+
+    <script>
+        // ⚠️ IMPORTANT : Remplace cette URL par celle de ton repo GitHub
+        // Format : https://raw.githubusercontent.com/TON_USERNAME/cashbackito-scraper/main/data/cashback_rates.json
+        const DATA_URL = 'https://raw.githubusercontent.com/TON_USERNAME/cashbackito-scraper/main/data/cashback_rates.json';
+
+        let allMerchants = [];
+        let categories = new Set();
+
+        const platformConfig = {
+            'iGraal': { class: 'platform-igraal', color: '#3b82f6' },
+            'Widilo': { class: 'platform-widilo', color: '#10b981' },
+            'Poulpeo': { class: 'platform-poulpeo', color: '#f97316' },
+            'eBuyClub': { class: 'platform-ebuyclub', color: '#8b5cf6' },
+        };
+
+        async function loadData() {
+            document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('error').classList.add('hidden');
+            document.getElementById('merchantsGrid').classList.add('hidden');
+            
+            try {
+                const response = await fetch(DATA_URL);
+                if (!response.ok) throw new Error('HTTP error');
+                
+                const data = await response.json();
+                
+                allMerchants = data.merchants || [];
+                categories = new Set(allMerchants.map(m => m.category).filter(Boolean));
+                populateCategories();
+                updateStats(data);
+                displayMerchants(allMerchants);
+                
+                if (data.last_updated_fr) {
+                    document.getElementById('lastUpdate').innerHTML = 
+                        `<span class="inline-flex items-center gap-2">
+                            <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse-slow"></span>
+                            Mis à jour le ${data.last_updated_fr}
+                        </span>`;
+                }
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('error').classList.remove('hidden');
+            }
+        }
+
+        function updateStats(data) {
+            const stats = data.stats || {};
+            document.getElementById('statMerchants').textContent = stats.merchants_count || allMerchants.length;
+            document.getElementById('statRates').textContent = stats.rates_count || '-';
+            
+            const winners = {};
+            allMerchants.forEach(m => {
+                if (m.best_platform) {
+                    winners[m.best_platform] = (winners[m.best_platform] || 0) + 1;
+                }
+            });
+            
+            document.getElementById('statBestWidilo').textContent = winners['Widilo'] || 0;
+            document.getElementById('statBestIgraal').textContent = winners['iGraal'] || 0;
+            document.getElementById('statsBar').classList.remove('hidden');
+        }
+
+        function populateCategories() {
+            const select = document.getElementById('categoryFilter');
+            select.innerHTML = '<option value="">Toutes catégories</option>';
+            [...categories].sort().forEach(cat => {
+                select.innerHTML += `<option value="${cat}">${cat}</option>`;
+            });
+        }
+
+        function displayMerchants(merchants) {
+            const grid = document.getElementById('merchantsGrid');
+            const noResults = document.getElementById('noResults');
+            
+            document.getElementById('loading').classList.add('hidden');
+            
+            if (merchants.length === 0) {
+                grid.classList.add('hidden');
+                noResults.classList.remove('hidden');
+                return;
+            }
+            
+            noResults.classList.add('hidden');
+            grid.classList.remove('hidden');
+            
+            grid.innerHTML = merchants.map(merchant => createMerchantCard(merchant)).join('');
+        }
+
+        function createMerchantCard(merchant) {
+            const rates = merchant.rates || [];
+            const bestPlatform = merchant.best_platform;
+            const bestRate = merchant.best_rate;
+            const allPlatforms = ['iGraal', 'Widilo', 'Poulpeo', 'eBuyClub'];
+            
+            return `
+                <div class="card-glass rounded-2xl p-5 hover:border-emerald-500/50 transition-all relative group">
+                    ${bestRate > 0 ? `
+                        <div class="best-badge">
+                            <span class="${platformConfig[bestPlatform]?.class || 'bg-emerald-600'} text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg">
+                                ${bestRate}%
+                            </span>
+                        </div>
+                    ` : ''}
+                    
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-3xl">${merchant.logo || '🏪'}</span>
+                        <div>
+                            <h3 class="font-semibold text-lg">${merchant.name}</h3>
+                            <span class="text-xs text-slate-500">${merchant.category || ''}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-2">
+                        ${allPlatforms.map(platform => {
+                            const rate = rates.find(r => r.platform === platform);
+                            const isBest = platform === bestPlatform && bestRate > 0;
+                            const config = platformConfig[platform];
+                            
+                            if (rate && rate.rate > 0) {
+                                return `
+                                    <a href="${rate.url || '#'}" target="_blank" rel="noopener"
+                                       class="flex items-center justify-between p-2 rounded-lg hover:bg-white/5 transition ${isBest ? 'ring-1 ring-emerald-500/50' : ''}">
+                                        <span class="text-sm ${isBest ? 'text-white font-medium' : 'text-slate-400'}">${platform}</span>
+                                        <span class="${config.class} text-white text-sm font-bold px-3 py-1 rounded-full">
+                                            ${rate.rate}%
+                                        </span>
+                                    </a>
+                                `;
+                            } else {
+                                return `
+                                    <div class="flex items-center justify-between p-2 rounded-lg opacity-40">
+                                        <span class="text-sm text-slate-500">${platform}</span>
+                                        <span class="text-sm text-slate-600">—</span>
+                                    </div>
+                                `;
+                            }
+                        }).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        function filterMerchants() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            const sortBy = document.getElementById('sortBy').value;
+            
+            let filtered = allMerchants.filter(m => {
+                const matchSearch = m.name.toLowerCase().includes(search);
+                const matchCategory = !category || m.category === category;
+                return matchSearch && matchCategory;
+            });
+            
+            if (sortBy === 'best') {
+                filtered.sort((a, b) => (b.best_rate || 0) - (a.best_rate || 0));
+            } else if (sortBy === 'name') {
+                filtered.sort((a, b) => a.name.localeCompare(b.name));
+            }
+            
+            displayMerchants(filtered);
+        }
+
+        document.getElementById('searchInput').addEventListener('input', filterMerchants);
+        document.getElementById('categoryFilter').addEventListener('change', filterMerchants);
+        document.getElementById('sortBy').addEventListener('change', filterMerchants);
+
+        loadData();
+    </script>
+</body>
+</html>
