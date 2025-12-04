@@ -2,9 +2,8 @@ name: Scrape Cashback Rates
 
 on:
   schedule:
-    # Toutes les 2 heures
     - cron: '0 */2 * * *'
-  workflow_dispatch: # Permet de lancer manuellement
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -32,4 +31,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add data/cashback_rates.json
           git diff --staged --quiet || git commit -m "Update cashback rates - $(date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin main
           git push
