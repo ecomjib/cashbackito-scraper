@@ -1,10 +1,10 @@
 {
-  "last_updated": "2025-12-04T11:57:24.035174+00:00",
-  "last_updated_fr": "04/12/2025 a 11h57",
+  "last_updated": "2025-12-04T12:06:59.099786+00:00",
+  "last_updated_fr": "04/12/2025 a 12h06",
   "stats": {
-    "merchants_count": 23,
-    "rates_count": 50,
-    "errors_count": 0
+    "merchants_count": 17,
+    "rates_count": 42,
+    "no_cashback_count": 6
   },
   "merchants": [
     {
@@ -123,26 +123,6 @@
       "best_platform": "Poulpeo"
     },
     {
-      "name": "Boulanger",
-      "slug": "boulanger",
-      "category": "High-Tech",
-      "logo": "🔌",
-      "rates": [
-        {
-          "platform": "Poulpeo",
-          "rate": 10.0,
-          "url": "https://www.poulpeo.com/reductions-boulanger.htm"
-        },
-        {
-          "platform": "Widilo",
-          "rate": 24.0,
-          "url": "https://www.widilo.fr/code-promo/boulanger"
-        }
-      ],
-      "best_rate": 24.0,
-      "best_platform": "Widilo"
-    },
-    {
       "name": "Samsung",
       "slug": "samsung",
       "category": "High-Tech",
@@ -202,29 +182,9 @@
           "platform": "Widilo",
           "rate": 16.0,
           "url": "https://www.widilo.fr/code-promo/shein"
-        },
-        {
-          "platform": "eBuyClub",
-          "rate": 5.0,
-          "url": "https://www.ebuyclub.com/reduction-shein-7494"
         }
       ],
       "best_rate": 16.0,
-      "best_platform": "Widilo"
-    },
-    {
-      "name": "Zalando",
-      "slug": "zalando",
-      "category": "Mode",
-      "logo": "👠",
-      "rates": [
-        {
-          "platform": "Widilo",
-          "rate": 20.0,
-          "url": "https://www.widilo.fr/code-promo/zalando"
-        }
-      ],
-      "best_rate": 20.0,
       "best_platform": "Widilo"
     },
     {
@@ -318,21 +278,6 @@
       "best_platform": "Widilo"
     },
     {
-      "name": "Decathlon",
-      "slug": "decathlon",
-      "category": "Sport",
-      "logo": "🏃",
-      "rates": [
-        {
-          "platform": "Widilo",
-          "rate": 30.0,
-          "url": "https://www.widilo.fr/code-promo/decathlon"
-        }
-      ],
-      "best_rate": 30.0,
-      "best_platform": "Widilo"
-    },
-    {
       "name": "Sephora",
       "slug": "sephora",
       "category": "Beaute",
@@ -398,21 +343,6 @@
       "best_platform": "Widilo"
     },
     {
-      "name": "Booking",
-      "slug": "booking",
-      "category": "Voyage",
-      "logo": "🏨",
-      "rates": [
-        {
-          "platform": "Poulpeo",
-          "rate": 15.0,
-          "url": "https://www.poulpeo.com/reductions-booking.htm"
-        }
-      ],
-      "best_rate": 15.0,
-      "best_platform": "Poulpeo"
-    },
-    {
       "name": "Expedia",
       "slug": "expedia",
       "category": "Voyage",
@@ -438,21 +368,6 @@
       "best_platform": "Poulpeo"
     },
     {
-      "name": "IKEA",
-      "slug": "ikea",
-      "category": "Maison",
-      "logo": "🪑",
-      "rates": [
-        {
-          "platform": "Widilo",
-          "rate": 24.0,
-          "url": "https://www.widilo.fr/code-promo/ikea"
-        }
-      ],
-      "best_rate": 24.0,
-      "best_platform": "Widilo"
-    },
-    {
       "name": "Maisons du Monde",
       "slug": "maisons-du-monde",
       "category": "Maison",
@@ -470,21 +385,6 @@
         }
       ],
       "best_rate": 5.0,
-      "best_platform": "Widilo"
-    },
-    {
-      "name": "Uber Eats",
-      "slug": "uber-eats",
-      "category": "Food",
-      "logo": "🍔",
-      "rates": [
-        {
-          "platform": "Widilo",
-          "rate": 24.0,
-          "url": "https://www.widilo.fr/code-promo/uber-eats"
-        }
-      ],
-      "best_rate": 24.0,
       "best_platform": "Widilo"
     }
   ]
