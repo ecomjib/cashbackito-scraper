@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-05T14:45:43.186024+00:00",
-  "last_updated_fr": "05/12/2025 à 14h45",
+  "last_updated": "2025-12-05T16:54:28.301800+00:00",
+  "last_updated_fr": "05/12/2025 à 16h54",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -24,7 +24,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 5.0,
+          "rate": 4.0,
           "url": "https://www.poulpeo.com/reductions-aliexpress.htm"
         },
         {
@@ -210,7 +210,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 3.0,
+          "rate": 5.0,
           "url": "https://www.poulpeo.com/reductions-asos.htm"
         },
         {
@@ -227,13 +227,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 3.6,
-        "platform": "Widilo",
-        "url": "https://www.widilo.fr/code-promo/asos"
+        "rate": 5.0,
+        "platform": "Poulpeo",
+        "url": "https://www.poulpeo.com/reductions-asos.htm"
       },
       "best_bon_achat": null,
-      "best_rate": 3.6,
-      "best_platform": "Widilo"
+      "best_rate": 5.0,
+      "best_platform": "Poulpeo"
     },
     {
       "name": "SHEIN",
@@ -244,7 +244,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 7.0,
+          "rate": 6.0,
           "url": "https://www.poulpeo.com/reductions-shein.htm"
         },
         {
@@ -261,12 +261,12 @@
         }
       ],
       "best_cashback": {
-        "rate": 7.0,
+        "rate": 6.0,
         "platform": "Poulpeo",
         "url": "https://www.poulpeo.com/reductions-shein.htm"
       },
       "best_bon_achat": null,
-      "best_rate": 7.0,
+      "best_rate": 6.0,
       "best_platform": "Poulpeo"
     },
     {
@@ -328,7 +328,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 4.0,
+          "rate": 6.0,
           "url": "https://www.poulpeo.com/reductions-showroomprive.htm"
         },
         {
@@ -356,7 +356,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 2.0,
+          "rate": 5.0,
           "url": "https://www.poulpeo.com/reductions-nike.htm"
         },
         {
@@ -373,12 +373,12 @@
         }
       ],
       "best_cashback": {
-        "rate": 2.0,
+        "rate": 5.0,
         "platform": "Poulpeo",
         "url": "https://www.poulpeo.com/reductions-nike.htm"
       },
       "best_bon_achat": null,
-      "best_rate": 2.0,
+      "best_rate": 5.0,
       "best_platform": "Poulpeo"
     },
     {
@@ -486,7 +486,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 5.0,
+          "rate": 6.0,
           "url": "https://www.poulpeo.com/reductions-yves-rocher.htm"
         },
         {
