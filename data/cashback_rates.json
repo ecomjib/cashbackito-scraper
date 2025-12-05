@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-05T18:53:46.240168+00:00",
-  "last_updated_fr": "05/12/2025 à 18h53",
+  "last_updated": "2025-12-05T20:43:20.475532+00:00",
+  "last_updated_fr": "05/12/2025 à 20h43",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -222,7 +222,7 @@
         {
           "platform": "eBuyClub",
           "type": "cashback",
-          "rate": 3.0,
+          "rate": 2.5,
           "url": "https://www.ebuyclub.com/reduction-asos-3419"
         }
       ],
