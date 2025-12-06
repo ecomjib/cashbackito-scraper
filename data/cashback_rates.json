@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-06T10:41:05.759968+00:00",
-  "last_updated_fr": "06/12/2025 à 10h41",
+  "last_updated": "2025-12-06T13:19:47.535038+00:00",
+  "last_updated_fr": "06/12/2025 à 13h19",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -182,7 +182,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 3.5,
+          "rate": 6.0,
           "url": "https://www.poulpeo.com/reductions-samsung.htm"
         },
         {
