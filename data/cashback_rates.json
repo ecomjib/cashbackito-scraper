@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-08T10:52:23.266120+00:00",
-  "last_updated_fr": "08/12/2025 à 10h52",
+  "last_updated": "2025-12-08T13:50:03.860340+00:00",
+  "last_updated_fr": "08/12/2025 à 13h50",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -126,17 +126,17 @@
         {
           "platform": "eBuyClub",
           "type": "cashback",
-          "rate": 4.2,
+          "rate": 10.0,
           "url": "https://www.ebuyclub.com/reduction-fnac-58"
         }
       ],
       "best_cashback": {
-        "rate": 4.2,
+        "rate": 10.0,
         "platform": "eBuyClub",
         "url": "https://www.ebuyclub.com/reduction-fnac-58"
       },
       "best_bon_achat": null,
-      "best_rate": 4.2,
+      "best_rate": 10.0,
       "best_platform": "eBuyClub"
     },
     {
@@ -160,7 +160,7 @@
         {
           "platform": "eBuyClub",
           "type": "cashback",
-          "rate": 4.2,
+          "rate": 4.0,
           "url": "https://www.ebuyclub.com/reduction-darty-846"
         }
       ],
