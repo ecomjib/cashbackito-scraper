@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-07T22:37:53.978066+00:00",
-  "last_updated_fr": "07/12/2025 à 22h37",
+  "last_updated": "2025-12-08T03:50:17.407671+00:00",
+  "last_updated_fr": "08/12/2025 à 03h50",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -30,7 +30,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 8.44,
+          "rate": 6.0,
           "url": "https://www.widilo.fr/code-promo/aliexpress"
         },
         {
@@ -41,12 +41,12 @@
         }
       ],
       "best_cashback": {
-        "rate": 8.44,
+        "rate": 6.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/aliexpress"
       },
       "best_bon_achat": null,
-      "best_rate": 8.44,
+      "best_rate": 6.0,
       "best_platform": "Widilo"
     },
     {
@@ -182,7 +182,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 3.0,
+          "rate": 4.0,
           "url": "https://www.poulpeo.com/reductions-samsung.htm"
         },
         {
@@ -334,17 +334,17 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 10.0,
+          "rate": 8.0,
           "url": "https://www.widilo.fr/code-promo/showroomprive"
         }
       ],
       "best_cashback": {
-        "rate": 10.0,
+        "rate": 8.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/showroomprive"
       },
       "best_bon_achat": null,
-      "best_rate": 10.0,
+      "best_rate": 8.0,
       "best_platform": "Widilo"
     },
     {
@@ -396,7 +396,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 4.0,
+          "rate": 6.0,
           "url": "https://www.widilo.fr/code-promo/adidas"
         },
         {
@@ -407,13 +407,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-adidas.htm"
+        "rate": 6.0,
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/adidas"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 6.0,
+      "best_platform": "Widilo"
     },
     {
       "name": "Sephora",
@@ -430,7 +430,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 5.0,
+          "rate": 6.0,
           "url": "https://www.widilo.fr/code-promo/sephora"
         },
         {
@@ -441,13 +441,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-sephora.htm"
+        "rate": 6.0,
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/sephora"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 6.0,
+      "best_platform": "Widilo"
     },
     {
       "name": "Nocibe",
@@ -520,7 +520,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 8.0,
+          "rate": 2.0,
           "url": "https://www.widilo.fr/code-promo/expedia"
         },
         {
@@ -531,13 +531,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 8.0,
-        "platform": "Widilo",
-        "url": "https://www.widilo.fr/code-promo/expedia"
+        "rate": 5.0,
+        "platform": "Poulpeo",
+        "url": "https://www.poulpeo.com/reductions-expedia.htm"
       },
       "best_bon_achat": null,
-      "best_rate": 8.0,
-      "best_platform": "Widilo"
+      "best_rate": 5.0,
+      "best_platform": "Poulpeo"
     },
     {
       "name": "Maisons du Monde",
