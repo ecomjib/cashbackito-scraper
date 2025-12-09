@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-08T22:41:51.077142+00:00",
-  "last_updated_fr": "08/12/2025 à 22h41",
+  "last_updated": "2025-12-09T03:44:51.175123+00:00",
+  "last_updated_fr": "09/12/2025 à 03h44",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -30,7 +30,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 5.0,
+          "rate": 2.5,
           "url": "https://www.widilo.fr/code-promo/aliexpress"
         },
         {
@@ -41,13 +41,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "Widilo",
-        "url": "https://www.widilo.fr/code-promo/aliexpress"
+        "rate": 4.0,
+        "platform": "Poulpeo",
+        "url": "https://www.poulpeo.com/reductions-aliexpress.htm"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "Widilo"
+      "best_rate": 4.0,
+      "best_platform": "Poulpeo"
     },
     {
       "name": "Cdiscount",
@@ -188,18 +188,18 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 10.0,
+          "rate": 3.33,
           "url": "https://www.widilo.fr/code-promo/samsung"
         }
       ],
       "best_cashback": {
-        "rate": 10.0,
-        "platform": "Widilo",
-        "url": "https://www.widilo.fr/code-promo/samsung"
+        "rate": 4.0,
+        "platform": "Poulpeo",
+        "url": "https://www.poulpeo.com/reductions-samsung.htm"
       },
       "best_bon_achat": null,
-      "best_rate": 10.0,
-      "best_platform": "Widilo"
+      "best_rate": 4.0,
+      "best_platform": "Poulpeo"
     },
     {
       "name": "ASOS",
@@ -278,17 +278,17 @@
         {
           "platform": "Widilo",
           "type": "bon_achat",
-          "rate": 14.0,
+          "rate": 10.0,
           "url": "https://www.widilo.fr/code-promo/zalando"
         }
       ],
       "best_cashback": null,
       "best_bon_achat": {
-        "rate": 14.0,
+        "rate": 10.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/zalando"
       },
-      "best_rate": 14.0,
+      "best_rate": 10.0,
       "best_platform": "Widilo"
     },
     {
