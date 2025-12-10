@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-10T14:53:49.091774+00:00",
-  "last_updated_fr": "10/12/2025 à 14h53",
+  "last_updated": "2025-12-10T16:57:51.054475+00:00",
+  "last_updated_fr": "10/12/2025 à 16h57",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -92,17 +92,17 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 6.0,
+          "rate": 3.6,
           "url": "https://www.widilo.fr/code-promo/rakuten"
         }
       ],
       "best_cashback": {
-        "rate": 6.0,
+        "rate": 3.6,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/rakuten"
       },
       "best_bon_achat": null,
-      "best_rate": 6.0,
+      "best_rate": 3.6,
       "best_platform": "Widilo"
     },
     {
@@ -328,7 +328,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 6.0,
+          "rate": 5.0,
           "url": "https://www.poulpeo.com/reductions-showroomprive.htm"
         },
         {
