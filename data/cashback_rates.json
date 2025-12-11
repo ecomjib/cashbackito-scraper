@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-11T10:53:33.974587+00:00",
-  "last_updated_fr": "11/12/2025 à 10h53",
+  "last_updated": "2025-12-11T13:55:23.974960+00:00",
+  "last_updated_fr": "11/12/2025 à 13h55",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -30,7 +30,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 2.5,
+          "rate": 2.0,
           "url": "https://www.widilo.fr/code-promo/aliexpress"
         },
         {
