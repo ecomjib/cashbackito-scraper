@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-11T08:58:38.765201+00:00",
-  "last_updated_fr": "11/12/2025 à 08h58",
+  "last_updated": "2025-12-11T10:53:33.974587+00:00",
+  "last_updated_fr": "11/12/2025 à 10h53",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -24,7 +24,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 4.0,
+          "rate": 13.0,
           "url": "https://www.poulpeo.com/reductions-aliexpress.htm"
         },
         {
@@ -41,12 +41,12 @@
         }
       ],
       "best_cashback": {
-        "rate": 4.0,
+        "rate": 13.0,
         "platform": "Poulpeo",
         "url": "https://www.poulpeo.com/reductions-aliexpress.htm"
       },
       "best_bon_achat": null,
-      "best_rate": 4.0,
+      "best_rate": 13.0,
       "best_platform": "Poulpeo"
     },
     {
@@ -188,17 +188,17 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 4.67,
+          "rate": 5.0,
           "url": "https://www.widilo.fr/code-promo/samsung"
         }
       ],
       "best_cashback": {
-        "rate": 4.67,
+        "rate": 5.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/samsung"
       },
       "best_bon_achat": null,
-      "best_rate": 4.67,
+      "best_rate": 5.0,
       "best_platform": "Widilo"
     },
     {
