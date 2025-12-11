@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-11T07:02:49.226969+00:00",
-  "last_updated_fr": "11/12/2025 à 07h02",
+  "last_updated": "2025-12-11T08:58:38.765201+00:00",
+  "last_updated_fr": "11/12/2025 à 08h58",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -256,7 +256,7 @@
         {
           "platform": "eBuyClub",
           "type": "cashback",
-          "rate": 5.0,
+          "rate": 6.0,
           "url": "https://www.ebuyclub.com/reduction-shein-7494"
         }
       ],
@@ -362,7 +362,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 2.0,
+          "rate": 4.0,
           "url": "https://www.widilo.fr/code-promo/nike"
         },
         {
@@ -373,13 +373,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 3.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-nike.htm"
+        "rate": 4.0,
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/nike"
       },
       "best_bon_achat": null,
-      "best_rate": 3.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 4.0,
+      "best_platform": "Widilo"
     },
     {
       "name": "Adidas",
