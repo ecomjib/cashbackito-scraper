@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-13T22:39:59.204695+00:00",
-  "last_updated_fr": "13/12/2025 à 22h39",
+  "last_updated": "2025-12-14T03:56:15.506646+00:00",
+  "last_updated_fr": "14/12/2025 à 03h56",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -182,7 +182,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 12.5,
+          "rate": 4.0,
           "url": "https://www.poulpeo.com/reductions-samsung.htm"
         },
         {
@@ -193,13 +193,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 12.5,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-samsung.htm"
+        "rate": 5.0,
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/samsung"
       },
       "best_bon_achat": null,
-      "best_rate": 12.5,
-      "best_platform": "Poulpeo"
+      "best_rate": 5.0,
+      "best_platform": "Widilo"
     },
     {
       "name": "ASOS",
@@ -458,7 +458,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 12.0,
+          "rate": 7.0,
           "url": "https://www.poulpeo.com/reductions-nocibe.htm"
         },
         {
@@ -469,13 +469,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 12.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-nocibe.htm"
+        "rate": 8.0,
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/nocibe"
       },
       "best_bon_achat": null,
-      "best_rate": 12.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 8.0,
+      "best_platform": "Widilo"
     },
     {
       "name": "Yves Rocher",
