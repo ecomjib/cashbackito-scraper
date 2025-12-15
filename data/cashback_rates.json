@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-14T22:39:18.235669+00:00",
-  "last_updated_fr": "14/12/2025 à 22h39",
+  "last_updated": "2025-12-15T04:02:06.215432+00:00",
+  "last_updated_fr": "15/12/2025 à 04h02",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -114,7 +114,7 @@
         {
           "platform": "Poulpeo",
           "type": "cashback",
-          "rate": 1.5,
+          "rate": 5.0,
           "url": "https://www.poulpeo.com/reductions-fnac.htm"
         },
         {
@@ -278,17 +278,17 @@
         {
           "platform": "Widilo",
           "type": "bon_achat",
-          "rate": 10.0,
+          "rate": 7.0,
           "url": "https://www.widilo.fr/code-promo/zalando"
         }
       ],
       "best_cashback": null,
       "best_bon_achat": {
-        "rate": 10.0,
+        "rate": 7.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/zalando"
       },
-      "best_rate": 10.0,
+      "best_rate": 7.0,
       "best_platform": "Widilo"
     },
     {
@@ -492,17 +492,17 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 9.6,
+          "rate": 7.8,
           "url": "https://www.widilo.fr/code-promo/yves-rocher"
         }
       ],
       "best_cashback": {
-        "rate": 9.6,
+        "rate": 7.8,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/yves-rocher"
       },
       "best_bon_achat": null,
-      "best_rate": 9.6,
+      "best_rate": 7.8,
       "best_platform": "Widilo"
     },
     {
