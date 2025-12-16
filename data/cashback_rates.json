@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-12-16T10:53:57.809835+00:00",
-  "last_updated_fr": "16/12/2025 à 10h53",
+  "last_updated": "2025-12-16T13:53:55.826966+00:00",
+  "last_updated_fr": "16/12/2025 à 13h53",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
     "merchants_with_offers": 18,
     "merchants_with_cashback": 17,
     "merchants_with_bon_achat": 1,
-    "total_offers": 43,
+    "total_offers": 40,
     "platforms": [
       "Poulpeo",
       "Widilo",
@@ -218,12 +218,6 @@
           "type": "cashback",
           "rate": 3.6,
           "url": "https://www.widilo.fr/code-promo/asos"
-        },
-        {
-          "platform": "eBuyClub",
-          "type": "cashback",
-          "rate": 2.5,
-          "url": "https://www.ebuyclub.com/reduction-asos-3419"
         }
       ],
       "best_cashback": {
@@ -398,12 +392,6 @@
           "type": "cashback",
           "rate": 4.0,
           "url": "https://www.widilo.fr/code-promo/adidas"
-        },
-        {
-          "platform": "eBuyClub",
-          "type": "cashback",
-          "rate": 4.5,
-          "url": "https://www.ebuyclub.com/reduction-adidas-1356"
         }
       ],
       "best_cashback": {
@@ -522,12 +510,6 @@
           "type": "cashback",
           "rate": 2.0,
           "url": "https://www.widilo.fr/code-promo/expedia"
-        },
-        {
-          "platform": "eBuyClub",
-          "type": "cashback",
-          "rate": 5.0,
-          "url": "https://www.ebuyclub.com/reduction-expedia-487"
         }
       ],
       "best_cashback": {
