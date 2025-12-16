@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-12-16T14:56:12.033816+00:00",
-  "last_updated_fr": "16/12/2025 à 14h56",
+  "last_updated": "2025-12-16T17:01:15.162379+00:00",
+  "last_updated_fr": "16/12/2025 à 17h01",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
     "merchants_with_offers": 18,
     "merchants_with_cashback": 17,
     "merchants_with_bon_achat": 1,
-    "total_offers": 43,
+    "total_offers": 41,
     "platforms": [
       "Poulpeo",
       "Widilo",
@@ -56,12 +56,6 @@
       "logo": "🏷️",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 3.0,
-          "url": "https://www.poulpeo.com/reductions-cdiscount.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 2.25,
@@ -76,12 +70,12 @@
       ],
       "best_cashback": {
         "rate": 3.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-cdiscount.htm"
+        "platform": "eBuyClub",
+        "url": "https://www.ebuyclub.com/reduction-cdiscount-104"
       },
       "best_bon_achat": null,
       "best_rate": 3.0,
-      "best_platform": "Poulpeo"
+      "best_platform": "eBuyClub"
     },
     {
       "name": "Rakuten",
@@ -112,12 +106,6 @@
       "logo": "🎮",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 5.0,
-          "url": "https://www.poulpeo.com/reductions-fnac.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 2.0,
@@ -131,13 +119,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-fnac.htm"
+        "rate": 4.0,
+        "platform": "eBuyClub",
+        "url": "https://www.ebuyclub.com/reduction-fnac-58"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 4.0,
+      "best_platform": "eBuyClub"
     },
     {
       "name": "Darty",
