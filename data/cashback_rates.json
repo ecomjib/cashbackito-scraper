@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-17T07:00:40.245881+00:00",
-  "last_updated_fr": "17/12/2025 à 07h00",
+  "last_updated": "2025-12-17T09:00:32.057614+00:00",
+  "last_updated_fr": "17/12/2025 à 09h00",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -158,17 +158,17 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 8.75,
+          "rate": 20.0,
           "url": "https://www.widilo.fr/code-promo/samsung"
         }
       ],
       "best_cashback": {
-        "rate": 8.75,
+        "rate": 20.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/samsung"
       },
       "best_bon_achat": null,
-      "best_rate": 8.75,
+      "best_rate": 20.0,
       "best_platform": "Widilo"
     },
     {
