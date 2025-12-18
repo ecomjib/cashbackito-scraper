@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-12-18T10:51:43.342365+00:00",
-  "last_updated_fr": "18/12/2025 à 10h51",
+  "last_updated": "2025-12-18T13:52:06.794207+00:00",
+  "last_updated_fr": "18/12/2025 à 13h52",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
     "merchants_with_offers": 18,
     "merchants_with_cashback": 17,
     "merchants_with_bon_achat": 1,
-    "total_offers": 32,
+    "total_offers": 28,
     "platforms": [
       "Poulpeo",
       "Widilo",
@@ -178,12 +178,6 @@
       "logo": "👕",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 5.0,
-          "url": "https://www.poulpeo.com/reductions-asos.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 3.6,
@@ -197,13 +191,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-asos.htm"
+        "rate": 3.6,
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/asos"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 3.6,
+      "best_platform": "Widilo"
     },
     {
       "name": "SHEIN",
@@ -262,12 +256,6 @@
       "logo": "🏠",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 2.0,
-          "url": "https://www.poulpeo.com/reductions-la-redoute.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 2.0,
@@ -276,12 +264,12 @@
       ],
       "best_cashback": {
         "rate": 2.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-la-redoute.htm"
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/la-redoute"
       },
       "best_bon_achat": null,
       "best_rate": 2.0,
-      "best_platform": "Poulpeo"
+      "best_platform": "Widilo"
     },
     {
       "name": "Showroomprive",
@@ -340,12 +328,6 @@
       "logo": "⚽",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 5.0,
-          "url": "https://www.poulpeo.com/reductions-adidas.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 4.0,
@@ -359,13 +341,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-adidas.htm"
+        "rate": 4.5,
+        "platform": "eBuyClub",
+        "url": "https://www.ebuyclub.com/reduction-adidas-1356"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 4.5,
+      "best_platform": "eBuyClub"
     },
     {
       "name": "Sephora",
@@ -423,12 +405,6 @@
       "category": "Beaute",
       "logo": "🌿",
       "offers": [
-        {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 6.0,
-          "url": "https://www.poulpeo.com/reductions-yves-rocher.htm"
-        },
         {
           "platform": "Widilo",
           "type": "cashback",
