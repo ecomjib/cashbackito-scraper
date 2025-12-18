@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-17T22:44:27.860671+00:00",
-  "last_updated_fr": "17/12/2025 à 22h44",
+  "last_updated": "2025-12-18T03:50:28.656879+00:00",
+  "last_updated_fr": "18/12/2025 à 03h50",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -188,17 +188,17 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 20.0,
+          "rate": 5.0,
           "url": "https://www.widilo.fr/code-promo/samsung"
         }
       ],
       "best_cashback": {
-        "rate": 20.0,
+        "rate": 5.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/samsung"
       },
       "best_bon_achat": null,
-      "best_rate": 20.0,
+      "best_rate": 5.0,
       "best_platform": "Widilo"
     },
     {
@@ -548,17 +548,17 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 3.75,
+          "rate": 5.0,
           "url": "https://www.widilo.fr/code-promo/maisons-du-monde"
         }
       ],
       "best_cashback": {
-        "rate": 3.75,
+        "rate": 5.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/maisons-du-monde"
       },
       "best_bon_achat": null,
-      "best_rate": 3.75,
+      "best_rate": 5.0,
       "best_platform": "Widilo"
     }
   ]
