@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-12-18T08:59:16.336575+00:00",
-  "last_updated_fr": "18/12/2025 à 08h59",
+  "last_updated": "2025-12-18T10:51:43.342365+00:00",
+  "last_updated_fr": "18/12/2025 à 10h51",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
     "merchants_with_offers": 18,
     "merchants_with_cashback": 17,
     "merchants_with_bon_achat": 1,
-    "total_offers": 43,
+    "total_offers": 32,
     "platforms": [
       "Poulpeo",
       "Widilo",
@@ -21,12 +21,6 @@
       "category": "Marketplace",
       "logo": "🛒",
       "offers": [
-        {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 4.0,
-          "url": "https://www.poulpeo.com/reductions-aliexpress.htm"
-        },
         {
           "platform": "Widilo",
           "type": "cashback",
@@ -56,12 +50,6 @@
       "logo": "🏷️",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 3.0,
-          "url": "https://www.poulpeo.com/reductions-cdiscount.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 2.25,
@@ -76,12 +64,12 @@
       ],
       "best_cashback": {
         "rate": 3.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-cdiscount.htm"
+        "platform": "eBuyClub",
+        "url": "https://www.ebuyclub.com/reduction-cdiscount-104"
       },
       "best_bon_achat": null,
       "best_rate": 3.0,
-      "best_platform": "Poulpeo"
+      "best_platform": "eBuyClub"
     },
     {
       "name": "Rakuten",
@@ -112,12 +100,6 @@
       "logo": "🎮",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 5.0,
-          "url": "https://www.poulpeo.com/reductions-fnac.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 2.0,
@@ -131,13 +113,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-fnac.htm"
+        "rate": 4.0,
+        "platform": "eBuyClub",
+        "url": "https://www.ebuyclub.com/reduction-fnac-58"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 4.0,
+      "best_platform": "eBuyClub"
     },
     {
       "name": "Darty",
@@ -145,12 +127,6 @@
       "category": "High-Tech",
       "logo": "📺",
       "offers": [
-        {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 5.0,
-          "url": "https://www.poulpeo.com/reductions-darty.htm"
-        },
         {
           "platform": "Widilo",
           "type": "cashback",
@@ -166,12 +142,12 @@
       ],
       "best_cashback": {
         "rate": 5.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-darty.htm"
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/darty"
       },
       "best_bon_achat": null,
       "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_platform": "Widilo"
     },
     {
       "name": "Samsung",
@@ -179,12 +155,6 @@
       "category": "High-Tech",
       "logo": "📱",
       "offers": [
-        {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 4.0,
-          "url": "https://www.poulpeo.com/reductions-samsung.htm"
-        },
         {
           "platform": "Widilo",
           "type": "cashback",
@@ -242,12 +212,6 @@
       "logo": "👗",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 6.0,
-          "url": "https://www.poulpeo.com/reductions-shein.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 6.0,
@@ -262,12 +226,12 @@
       ],
       "best_cashback": {
         "rate": 6.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-shein.htm"
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/shein"
       },
       "best_bon_achat": null,
       "best_rate": 6.0,
-      "best_platform": "Poulpeo"
+      "best_platform": "Widilo"
     },
     {
       "name": "Zalando",
@@ -326,12 +290,6 @@
       "logo": "🛍️",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 5.0,
-          "url": "https://www.poulpeo.com/reductions-showroomprive.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 8.0,
@@ -353,12 +311,6 @@
       "category": "Sport",
       "logo": "✔️",
       "offers": [
-        {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 3.0,
-          "url": "https://www.poulpeo.com/reductions-nike.htm"
-        },
         {
           "platform": "Widilo",
           "type": "cashback",
@@ -422,12 +374,6 @@
       "logo": "💄",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 5.0,
-          "url": "https://www.poulpeo.com/reductions-sephora.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 3.0,
@@ -441,13 +387,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-sephora.htm"
+        "rate": 3.0,
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/sephora"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 3.0,
+      "best_platform": "Widilo"
     },
     {
       "name": "Nocibe",
@@ -455,12 +401,6 @@
       "category": "Beaute",
       "logo": "💅",
       "offers": [
-        {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 6.0,
-          "url": "https://www.poulpeo.com/reductions-nocibe.htm"
-        },
         {
           "platform": "Widilo",
           "type": "cashback",
@@ -512,12 +452,6 @@
       "logo": "✈️",
       "offers": [
         {
-          "platform": "Poulpeo",
-          "type": "cashback",
-          "rate": 6.0,
-          "url": "https://www.poulpeo.com/reductions-expedia.htm"
-        },
-        {
           "platform": "Widilo",
           "type": "cashback",
           "rate": 2.0,
@@ -531,13 +465,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 6.0,
-        "platform": "Poulpeo",
-        "url": "https://www.poulpeo.com/reductions-expedia.htm"
+        "rate": 5.0,
+        "platform": "eBuyClub",
+        "url": "https://www.ebuyclub.com/reduction-expedia-487"
       },
       "best_bon_achat": null,
-      "best_rate": 6.0,
-      "best_platform": "Poulpeo"
+      "best_rate": 5.0,
+      "best_platform": "eBuyClub"
     },
     {
       "name": "Maisons du Monde",
