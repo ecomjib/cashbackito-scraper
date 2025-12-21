@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-20T22:39:38.424188+00:00",
-  "last_updated_fr": "20/12/2025 à 22h39",
+  "last_updated": "2025-12-21T03:57:08.958782+00:00",
+  "last_updated_fr": "21/12/2025 à 03h57",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -302,7 +302,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 4.0,
+          "rate": 2.0,
           "url": "https://www.widilo.fr/code-promo/nike"
         },
         {
@@ -313,12 +313,12 @@
         }
       ],
       "best_cashback": {
-        "rate": 4.0,
+        "rate": 2.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/nike"
       },
       "best_bon_achat": null,
-      "best_rate": 4.0,
+      "best_rate": 2.0,
       "best_platform": "Widilo"
     },
     {
