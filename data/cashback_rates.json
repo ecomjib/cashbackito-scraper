@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-21T22:41:54.755215+00:00",
-  "last_updated_fr": "21/12/2025 à 22h41",
+  "last_updated": "2025-12-22T04:04:02.885119+00:00",
+  "last_updated_fr": "22/12/2025 à 04h04",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -108,17 +108,17 @@
         {
           "platform": "eBuyClub",
           "type": "cashback",
-          "rate": 4.0,
+          "rate": 4.2,
           "url": "https://www.ebuyclub.com/reduction-fnac-58"
         }
       ],
       "best_cashback": {
-        "rate": 4.0,
+        "rate": 4.2,
         "platform": "eBuyClub",
         "url": "https://www.ebuyclub.com/reduction-fnac-58"
       },
       "best_bon_achat": null,
-      "best_rate": 4.0,
+      "best_rate": 4.2,
       "best_platform": "eBuyClub"
     },
     {
@@ -136,7 +136,7 @@
         {
           "platform": "eBuyClub",
           "type": "cashback",
-          "rate": 4.0,
+          "rate": 4.2,
           "url": "https://www.ebuyclub.com/reduction-darty-846"
         }
       ],
@@ -236,17 +236,17 @@
         {
           "platform": "Widilo",
           "type": "bon_achat",
-          "rate": 7.0,
+          "rate": 9.0,
           "url": "https://www.widilo.fr/code-promo/zalando"
         }
       ],
       "best_cashback": null,
       "best_bon_achat": {
-        "rate": 7.0,
+        "rate": 9.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/zalando"
       },
-      "best_rate": 7.0,
+      "best_rate": 9.0,
       "best_platform": "Widilo"
     },
     {
@@ -280,17 +280,17 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 10.0,
+          "rate": 8.0,
           "url": "https://www.widilo.fr/code-promo/showroomprive"
         }
       ],
       "best_cashback": {
-        "rate": 10.0,
+        "rate": 8.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/showroomprive"
       },
       "best_bon_achat": null,
-      "best_rate": 10.0,
+      "best_rate": 8.0,
       "best_platform": "Widilo"
     },
     {
@@ -430,7 +430,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 2.0,
+          "rate": 8.0,
           "url": "https://www.widilo.fr/code-promo/expedia"
         },
         {
@@ -441,13 +441,13 @@
         }
       ],
       "best_cashback": {
-        "rate": 5.0,
-        "platform": "eBuyClub",
-        "url": "https://www.ebuyclub.com/reduction-expedia-487"
+        "rate": 8.0,
+        "platform": "Widilo",
+        "url": "https://www.widilo.fr/code-promo/expedia"
       },
       "best_bon_achat": null,
-      "best_rate": 5.0,
-      "best_platform": "eBuyClub"
+      "best_rate": 8.0,
+      "best_platform": "Widilo"
     },
     {
       "name": "Maisons du Monde",
