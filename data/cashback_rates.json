@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-25T22:42:34.438527+00:00",
-  "last_updated_fr": "25/12/2025 à 22h42",
+  "last_updated": "2025-12-26T03:53:09.846769+00:00",
+  "last_updated_fr": "26/12/2025 à 03h53",
   "version": "5.0",
   "stats": {
     "merchants_total": 23,
@@ -236,17 +236,17 @@
         {
           "platform": "Widilo",
           "type": "bon_achat",
-          "rate": 9.0,
+          "rate": 7.0,
           "url": "https://www.widilo.fr/code-promo/zalando"
         }
       ],
       "best_cashback": null,
       "best_bon_achat": {
-        "rate": 9.0,
+        "rate": 7.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/zalando"
       },
-      "best_rate": 9.0,
+      "best_rate": 7.0,
       "best_platform": "Widilo"
     },
     {
@@ -430,7 +430,7 @@
         {
           "platform": "Widilo",
           "type": "cashback",
-          "rate": 8.0,
+          "rate": 6.0,
           "url": "https://www.widilo.fr/code-promo/expedia"
         },
         {
@@ -441,12 +441,12 @@
         }
       ],
       "best_cashback": {
-        "rate": 8.0,
+        "rate": 6.0,
         "platform": "Widilo",
         "url": "https://www.widilo.fr/code-promo/expedia"
       },
       "best_bon_achat": null,
-      "best_rate": 8.0,
+      "best_rate": 6.0,
       "best_platform": "Widilo"
     },
     {
